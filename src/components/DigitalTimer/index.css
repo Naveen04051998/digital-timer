@@ -1,0 +1,88 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 70vh;
+}
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  height: 130px;
+  width: 200px;
+  border-radius: 50%;
+  border-width: 0px;
+  box-shadow: 0px 4px 16px 0px;
+}
+.timer-heading {
+  color: #00d9f5;
+  font-weight: 600;
+  font-size: 36px;
+  font-family: 'roboto';
+}
+.timer-para {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: fantasy;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+}
+.timer-para {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: fantasy;
+  height: 50px;
+}
+.limit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+.limit-container-2 {
+  display: row;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+.cap {
+  background: linear-gradient(#defafe, #00d9f5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40px;
+}
+.heading {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
